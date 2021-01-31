@@ -144,7 +144,7 @@ Thus by line 8, `newArr` is equal to `[6, 8, 10]` and `[6, 8, 10]` is returned.
 First, line 8 calls `printNums`. Then line 2 logs `1` to the console. Then at line 3 a timeout of 1000ms is placed to then call a function that logs `2`.
 Then line 3 puts a timeout of 0ms to then call a function that logs `3`. Then line 4 logs `4`. 
 
-However, timeout functions are throttled to a minimum of once every 4ms, so the console.logs in line 2 and 5 execute first. Then the earlier timeout executes logging `3`. Then the slowest one at 1000ms logs the final number `4` at approximately 1000ms after the initial function call. Thus, the output is
+However, timeout functions are throttled to a minimum of once every 4ms, so the console.logs in line 2 and 5 execute first. Then the earlier timeout executes logging `3`. Then the slowest one at 1000ms logs the final number `2` at approximately 1000ms after the initial function call. Thus, the output is
 
 ```
 1
