@@ -8,7 +8,7 @@ let statistics = {
 }
 
 for (let carStat in statistics) {
-  if (carStat[0] === 'r') {
+  if (carStat[0] === 'r' || statistics[carStat] % 2 === 1) {
     console.log(statistics[carStat])
   }
 }
