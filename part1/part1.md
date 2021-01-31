@@ -95,7 +95,7 @@ B. Output is `false` since we are comparing 2 strings, `'2'` and `'12'` and the 
 
 C. Output is `true` since the string `'2'` converts to the number `2` due to comparing different types and `2 == 2` is true.
 
-D. Output is `'false'` since we perform a strict equality and `2` is of type `number` wheras `'2'` is of a different type `string` so `2 === '2'` outputs false.
+D. Output is `false` since we perform a strict equality and `2` is of type `number` wheras `'2'` is of a different type `string` so `2 === '2'` outputs false.
 
 E. Output is `false` since the boolean `true` converts to the number `1` due to comparing different types and `1 == 2` is false.
 
